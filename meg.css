@@ -618,5 +618,60 @@ tr:nth-child(odd) {
     height: auto;
     object-fit: cover;
   }
+  .walkthrough-box {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .walkthrough-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .walkthrough-form label {
+    color: #000000;
+    font-weight: bold;
+  }
+
+  .walkthrough-form input,
+  .walkthrough-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .walkthrough-form input[type="text"],
+  .walkthrough-form input[type="email"],
+  .walkthrough-form input[type="tel"] {
+    background-color: #fafafa;
+  }
+
+  .walkthrough-btn {
+    padding: 12px;
+    background-color: #228B22;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+
+  .walkthrough-btn:hover {
+    background-color: #006400;
+    box-shadow: 0 0 10px 3px #008000;
+  }
+
+  .walkthrough-success {
+    display: none;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+  }
 }
 
