@@ -162,12 +162,12 @@ input, textarea { margin-bottom: .5em; }
 }
 .checkbox-row {
   display: flex;
+  justify-content: flex-start; /* Align items horizontally */
   align-items: center;
-  gap: 20px;
 }
 
 .checkbox-question {
-  margin-right: 20px;
+  margin-right: 20px; /* Space between question and checkboxes */
   font-weight: bold;
 }
 
@@ -179,7 +179,7 @@ input, textarea { margin-bottom: .5em; }
 .checkbox-inline {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 10px; /* Space between checkbox and label */
 }
  @media (min-width: 600px) { 
    nav {
