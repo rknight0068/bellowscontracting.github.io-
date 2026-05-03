@@ -150,6 +150,7 @@ input, textarea { margin-bottom: .5em; }
  }
  #item img{ float:right;
  }
+ 
 .circle-row {
   display: flex;
   justify-content: center;  
@@ -158,6 +159,27 @@ input, textarea { margin-bottom: .5em; }
   flex-wrap: nowrap;          
   margin: 0 auto;           
   max-width: 1200px;         
+}
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.checkbox-question {
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-inline {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
  @media (min-width: 600px) { 
    nav {
@@ -504,7 +526,7 @@ tr:first-child th:last-child {
 
   .details,
   .resident-section,
-	 .circle-row {
+  .circle-row {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
@@ -512,8 +534,7 @@ tr:first-child th:last-child {
 
   .circle-row {
     flex-wrap: wrap;
-  }1200px;         
-}
+  }
 
   img {
     max-width: 100%;
@@ -674,4 +695,3 @@ tr:nth-child(odd) {
     margin-top: 20px;
   }
 }
-
