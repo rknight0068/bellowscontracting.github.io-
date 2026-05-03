@@ -694,7 +694,7 @@ tr:nth-child(odd) {
     font-weight: bold;
     margin-top: 20px;
   }
-.checkbox-row {
+ .checkbox-row {
     flex-direction: column;
     align-items: flex-start;
   }
@@ -715,5 +715,14 @@ tr:nth-child(odd) {
     width: 20px;
     height: 20px;
     margin-right: 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .checkbox-inline input:checked {
+    background-color: #228B22;
+    border-color: #228B22;
   }
 }
