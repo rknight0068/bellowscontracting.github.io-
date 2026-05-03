@@ -599,7 +599,7 @@ tr:nth-child(odd) {
     left: 50%;
     transform: translateX(-50%);
     background-color: rgba(0, 0, 0, 0.7);
-    color: #000000;
+    color: #FFFAF0;
     padding: 10px 15px;
     font-size: 1em;
     text-decoration: none;
