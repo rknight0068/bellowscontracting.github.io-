@@ -257,7 +257,7 @@ input, textarea { margin-bottom: .5em; }
 				
 .circle-text {
   position: absolute;
-  bottom: 15px;
+  bottom: 25px;
   left: 50%;
   transform: translateX(-50%);
   width: 85%;
