@@ -292,21 +292,6 @@ input, textarea { margin-bottom: .5em; }
   box-shadow: 0 0 25px 10px #008000; 
   cursor: pointer;
 }
-
-.circle-text {
-  position: absolute;
-  bottom: 50px;
-  left: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.7);  
-  color: white;
-  text-align: center;
-  padding: 5px 0; 
-  font-weight: bold;
-  font-size: 1em;          
-  box-sizing: border-box;
-  border-radius: 10px 10px 0 0; 
-}
 h3 a {
   display: inline-block;            
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -544,18 +529,20 @@ img:not(.photo-container-round img) {
   border-radius: 50%;
   overflow: hidden;
 }
-.circle-text {
+
+	.circle-text {
   position: absolute;
-  bottom: 12px;
+  bottom: 50px;
   left: 0;
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);  
+  color: white;
   text-align: center;
-  padding: 6px 0;
+  padding: 5px 0; 
   font-weight: bold;
-  color: black;
-  font-size: 0.9em;
-  z-index: 2;
-
+  font-size: 1em;          
+  box-sizing: border-box;
+  border-radius: 10px 10px 0 0; 
 }
 	.resident-text {
   color: white; }
