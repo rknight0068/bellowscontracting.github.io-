@@ -275,12 +275,6 @@ input, textarea { margin-bottom: .5em; }
   color: inherit;
 }		
 				
-.photo-container-round img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;  
-  border-radius: 50%; 
-}
 .circle-text {
   position: absolute;
   bottom: 0;               
