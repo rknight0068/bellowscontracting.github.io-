@@ -579,4 +579,11 @@ tr:first-child th:last-child {
     flex-direction: column;
     align-items: center;
   }
+	tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+  background-color: #808080;
+}
 }
