@@ -694,4 +694,24 @@ tr:nth-child(odd) {
     font-weight: bold;
     margin-top: 20px;
   }
+  .checkbox-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .checkbox-item {
+    margin-bottom: 10px;
+  }
+
+  .checkbox-inline {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .checkbox-inline input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
 }
