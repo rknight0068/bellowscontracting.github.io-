@@ -274,16 +274,17 @@ input, textarea { margin-bottom: .5em; }
   height: 300px;
   border-radius: 50%;
   overflow: hidden;
-  flex: 0 0 300px;
   border: 4px solid black;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex: 0 0 300px;
 }
 
 .photo-container-round img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
 }
 
 .photo-container-round:hover {
