@@ -515,15 +515,6 @@ tr:first-child th:last-child {
     flex-wrap: wrap;
   }
 
-  .photo-container-round,
-  #house,
-  #office,
-  #resident {
-    max-width: 280px;
-    width: 200px;
-  height: 200px;
-  }
-
   img {
     max-width: 100%;
     height: auto;
