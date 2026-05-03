@@ -686,4 +686,9 @@ tr:nth-child(odd) {
     background-color: #228B22;
     border-color: #228B22;
   }
+	.logo {
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+  }
 }
