@@ -1,0 +1,106 @@
+/*Robert Knight*/
+/*Booking.html*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bellows Contracting LLC</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="meg.css" rel="stylesheet">
+</head>
+<body>
+<div id="wrapper">
+  <header>
+  <div class="header-content">
+    <img src="photos/logo.png" alt="Company Logo" class="logo">
+    <h1><a href="index.html">Bellows Contracting LLC</a></h1>
+  </div>
+ </header>
+  <nav>
+    <ul>
+	  <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li> 
+      <li><a href="services.html">Services Offered</a></li>
+      <li><a href="jobs.html">Washing Estimates</a></li>
+	  <li><a href="booking.html">Book An Interior Walkthrough</a></li>
+	  <li><a href="reviews.html">Testimonials</a></li> 
+	</ul>
+  </nav>
+  <main>
+
+  <p class="center-text"> Please fill out your information below and a member of our team will be in contact with you as soon as possible! </p>
+  <div class="walkthrough-box">
+  <h2>Book an Interior Walkthrough</h2>
+
+  <form id="walkthroughForm" class="walkthrough-form">
+    
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" required>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" required>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" required>
+
+    <label for="address">Walkthrough Address:</label>
+    <input type="text" id="address" required>
+
+     <label for="cleaningType">Type of Cleaning Needed:</label>
+    <select id="cleaningType" name="cleaningType" required>
+      <option value="" disabled selected>Select a service</option>
+      <option value="Standard Cleaning">Standard Cleaning</option>
+      <option value="Deep Cleaning">Deep Cleaning</option>
+      <option value="Move-In/Move-Out">Move-In / Move-Out</option>
+      <option value="Commercial Cleaning">Commercial Cleaning</option>
+      <option value="Post-Construction">Post-Construction</option>
+      <option value="Other">Other</option>
+</select>
+<div class="checkbox-row">
+  <label class="checkbox-question">Do you have any special requests when it comes to your service?</label>
+
+  <label class="checkbox-inline">
+    <input type="checkbox" name="smsUpdates" value="Yes">
+    Would you like to receive text updates about your service?
+  </label>
+
+  <label class="checkbox-inline">
+    <input type="checkbox" name="petsPresent" value="Yes">
+  </label>
+</div>
+<label>Is it okay if we email you our newsletter?</label>
+<div class="radio-group">
+  <label><input type="radio" name="newsletter" value="Yes"> Yes</label>
+  <label><input type="radio" name="newsletter" value="No"> No</label>
+</div>
+
+<label>Preferred follow-up method:</label>
+<div class="radio-group">
+  <label><input type="radio" name="contactMethod" value="Phone Call"> Phone Call</label>
+  <label><input type="radio" name="contactMethod" value="Text Message"> Text Message</label>
+</div>
+    <button type="submit" class="walkthrough-btn">Submit</button>
+  </form>
+
+  <div id="walkthroughSuccess" class="walkthrough-success">
+    Your information has been submitted! We will be in contact soon.
+  </div>
+</div>
+
+<script>
+document.getElementById("walkthroughForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    document.getElementById("walkthroughForm").style.display = "none";
+    document.getElementById("walkthroughSuccess").style.display = "block";
+});
+</script>	
+  </main>
+  <footer>
+Copyright &copy; 2025 Bellows Contracting LLC <br>
+<a href="megansemail@example.us >megansemail@example.us </a>
+  </footer>
+</div>
+</body>
+</html>
+<!-- O&A Bellows -->
