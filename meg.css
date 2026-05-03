@@ -209,7 +209,6 @@ input, textarea { margin-bottom: .5em; }
   background-position: center;
   border-radius: 50%;
   overflow: hidden; 
-  display: flex;
   gap: 20px; 
   flex: 0 0 300px; 
   border: 4px solid black;
@@ -541,19 +540,7 @@ tr:first-child th:last-child {
   p, li {
   color: #FFFFFF;
 }
-.photo-container-round {
-  position: relative;
-  overflow: hidden;
-  border-radius: 50%;
-  position: relative;
-  width: 200px;
-  height: 200px;
-  aspect-ratio: 1 / 1;
-  border-radius: 50%;
-  overflow: hidden;
-  flex: 0 0 auto;
-  z-index: 1;
-}
+
 .circle-text {
   position: absolute;
   bottom: 12px;
@@ -575,8 +562,16 @@ tr:first-child th:last-child {
   object-fit: cover;
   display: block;
 }
-	.resident-section {
-    flex-direction: column;
-    align-items: center;
-  }
+.resident-section .photo-container-round {
+  width: 200px;
+  height: 200px;
+  flex: 0 0 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+	.resident-section .photo-container-round img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
