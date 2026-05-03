@@ -2,7 +2,7 @@
 /*meg.css.html*/
 * { box-sizing: border-box; }
 body { background-color: #000000;
-       color: #221811;
+       color: #black;
 	   font-family: Tahoma, Arial, sans-serif; 
 	   margin: 0;  
 }
@@ -26,7 +26,7 @@ h1 { font-size: 2em;
 	;
 		}
 h2 { font-size: 2em; 
-	font-family: 'Copperplate', 'Copperplate Gothic Light', fantasy, Tahoma, Arial, sans-serif;color: #221811; 
+	font-family: 'Copperplate', 'Copperplate Gothic Light', fantasy, Tahoma, Arial, sans-serif;color: #black; 
 	text-align:center;
 	}
 h3 { font-size: 1.5em; 
