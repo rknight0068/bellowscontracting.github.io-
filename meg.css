@@ -150,14 +150,13 @@ input, textarea { margin-bottom: .5em; }
  }
  #item img{ float:right;
  }
- 
 .checkbox-row {
   display: flex;
   align-items: center;
 }
 
 .checkbox-question {
-  margin-right: 20px;
+  margin-right: 15px;
   font-weight: bold;
 }
 
