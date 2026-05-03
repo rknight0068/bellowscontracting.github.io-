@@ -495,12 +495,15 @@ tr:first-child th:last-child {
 
   .details,
   .resident-section,
-  .circle-row {
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-	  
-  }
+	.circle-row {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  gap: 20px;
+  flex-wrap: nowrap;          
+  margin: 0 auto;           
+  max-width: 1200px;         
+}
 
   img {
     max-width: 100%;
