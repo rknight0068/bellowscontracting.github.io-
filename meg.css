@@ -150,27 +150,6 @@ input, textarea { margin-bottom: .5em; }
  }
  #item img{ float:right;
  }
-.checkbox-row {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.checkbox-question {
-  margin-right: 20px;
-  font-weight: bold;
-}
-
-.checkbox-item {
-  display: flex;
-  align-items: center;
-}
-
-.checkbox-inline {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
  @media (min-width: 600px) { 
    nav {
     border: 2px solid #FFFFFF;
