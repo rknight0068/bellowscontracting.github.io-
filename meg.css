@@ -581,4 +581,8 @@ tr:first-child th:last-child {
   object-fit: cover;
   display: block;
 }
+	.resident-section {
+    flex-direction: column;
+    align-items: center;
+  }
 }
