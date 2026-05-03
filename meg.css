@@ -151,19 +151,9 @@ input, textarea { margin-bottom: .5em; }
  #item img{ float:right;
  }
  
-.circle-row {
-  display: flex;
-  justify-content: center;  
-  align-items: center;
-  gap: 20px;
-  flex-wrap: nowrap;          
-  margin: 0 auto;           
-  max-width: 1200px;         
-}
 .checkbox-row {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .checkbox-question {
@@ -172,13 +162,13 @@ input, textarea { margin-bottom: .5em; }
 }
 
 .checkbox-item {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   margin-right: 15px;
 }
 
 .checkbox-inline {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   gap: 10px;
 }
