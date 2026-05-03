@@ -153,6 +153,7 @@ input, textarea { margin-bottom: .5em; }
 .checkbox-row {
   display: flex;
   align-items: center;
+  gap: 20px;
 }
 
 .checkbox-question {
@@ -163,7 +164,6 @@ input, textarea { margin-bottom: .5em; }
 .checkbox-item {
   display: flex;
   align-items: center;
-  margin-right: 15px;
 }
 
 .checkbox-inline {
