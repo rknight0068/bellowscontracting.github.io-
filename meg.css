@@ -562,19 +562,7 @@ tr:first-child th:last-child {
   p, li {
   color: #FFFFFF;
 }
-.photo-container-round {
-  position: relative;
-  overflow: hidden;
-  border-radius: 50%;
-  position: relative;
-  width: 200px;
-  height: 200px;
-  aspect-ratio: 1 / 1;
-  border-radius: 50%;
-  overflow: hidden;
-  flex: 0 0 auto;
-  z-index: 1;
-}
+
 .circle-text {
   position: absolute;
   bottom: 12px;
@@ -588,6 +576,14 @@ tr:first-child th:last-child {
   z-index: 2;
 
 }
+	  .photo-container-round {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex: 0 0 auto;
+  }
+
 	.resident-text {
   color: white; }
 .photo-container-round img {
