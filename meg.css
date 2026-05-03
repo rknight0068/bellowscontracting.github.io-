@@ -519,9 +519,9 @@ tr:first-child th:last-child {
   #house,
   #office,
   #resident {
-    width: 90%;
     max-width: 280px;
-    height: auto;
+    width: 200px;
+  height: 200px;
   }
 
   img {
