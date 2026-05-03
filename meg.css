@@ -150,6 +150,15 @@ input, textarea { margin-bottom: .5em; }
  }
  #item img{ float:right;
  }
+.circle-row {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  gap: 20px;
+  flex-wrap: nowrap;          
+  margin: 0 auto;           
+  max-width: 1200px;         
+}
  @media (min-width: 600px) { 
    nav {
     border: 2px solid #FFFFFF;
@@ -495,14 +504,15 @@ tr:first-child th:last-child {
 
   .details,
   .resident-section,
-	.circle-row {
-  display: flex;
-  justify-content: center;  
-  align-items: center;
-  gap: 20px;
-  flex-wrap: nowrap;          
-  margin: 0 auto;           
-  max-width: 1200px;         
+	 .circle-row {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .circle-row {
+    flex-wrap: wrap;
+  }1200px;         
 }
 
   img {
