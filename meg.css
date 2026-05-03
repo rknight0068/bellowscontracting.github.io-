@@ -474,8 +474,6 @@ tr:first-child th:last-child {
   padding: 8px 14px;
   cursor: pointer;
 }
-
-}
 @media (max-width: 599px) {
 
   body {
@@ -503,7 +501,6 @@ tr:first-child th:last-child {
   }
 
   .details,
-  .resident-section,
   .circle-row {
     flex-direction: column;
     align-items: center;
@@ -512,15 +509,6 @@ tr:first-child th:last-child {
 
   .circle-row {
     flex-wrap: wrap;
-  }
-
-  .photo-container-round,
-  #house,
-  #office,
-  #resident {
-    width: 90%;
-    max-width: 280px;
-    height: auto;
   }
 
   img {
@@ -549,19 +537,7 @@ tr:first-child th:last-child {
   p, li {
   color: #FFFFFF;
 }
-.photo-container-round {
-  position: relative;
-  overflow: hidden;
-  border-radius: 50%;
-  position: relative;
-  width: 200px;
-  height: 200px;
-  aspect-ratio: 1 / 1;
-  border-radius: 50%;
-  overflow: hidden;
-  flex: 0 0 auto;
-  z-index: 1;
-}
+
 .circle-text {
   position: absolute;
   bottom: 12px;
@@ -575,10 +551,25 @@ tr:first-child th:last-child {
   z-index: 2;
 
 }
+	.resident-text {
+  color: white; }
+	
 .photo-container-round img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
+.resident-section .photo-container-round {
+  width: 200px;
+  height: 200px;
+  flex: 0 0 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+	.resident-section .photo-container-round img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
