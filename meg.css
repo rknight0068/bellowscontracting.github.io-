@@ -537,6 +537,12 @@ tr:first-child th:last-child {
 
   .circle-row {
     flex-wrap: wrap;
+	  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 10px;
+  -webkit-overflow-scrolling: touch;
   }
 
 img:not(.photo-container-round img) {
@@ -566,11 +572,14 @@ img:not(.photo-container-round img) {
   color: #FFFFFF;
 }
 .photo-container-round {
-  position: relative;
-  width: 300px;
+  flex: 0 0 80%;
+  max-width: 300px;
   height: 300px;
+  scroll-snap-align: center;
   border-radius: 50%;
   overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease;
 }
 
 	.circle-text {
@@ -763,5 +772,14 @@ tr:nth-child(odd) {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+.photo-container-round:active {
+  transform: scale(1.05);
+}
+	.circle-row::-webkit-scrollbar {
+  display: none;
+}
+.circle-row {
+  scrollbar-width: none;
 }
 }
