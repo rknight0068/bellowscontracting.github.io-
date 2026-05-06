@@ -39,19 +39,19 @@
   <div class="walkthrough-box">
   <h5>Book an Interior Walkthrough</h5>
 
-  <form id="walkthroughForm" class="walkthrough-form">
+  <form id="walkthroughForm" class="walkthrough-form" action="submit.php" method="POST">
     
     <label for="name">Full Name:</label>
-    <input type="text" id="name" required>
+    <input type="text" id="name" name="name" required>
 
     <label for="phone">Phone Number:</label>
-    <input type="tel" id="phone" required>
+    <input type="tel" id="phone" name="phone" required>
 
     <label for="email">Email Address:</label>
-    <input type="email" id="email" required>
+    <input type="email" id="email" name="email" required>
 
     <label for="address">Walkthrough Address:</label>
-    <input type="text" id="address" required>
+    <input type="text" id="address" name="address" required>
 
      <label for="cleaningType">Type of Cleaning Needed:</label>
     <select id="cleaningType" name="cleaningType" required>
@@ -100,15 +100,6 @@
     Your information has been submitted! We will be in contact soon.
   </div>
 </div>
-
-<script>
-document.getElementById("walkthroughForm").addEventListener("submit", function(e) {
-    e.preventDefault();
-
-    document.getElementById("walkthroughForm").style.display = "none";
-    document.getElementById("walkthroughSuccess").style.display = "block";
-});
-</script>	
   </main>
   <footer>
 Copyright &copy; 2025 Bellows Contracting LLC <br>
