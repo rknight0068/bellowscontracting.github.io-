@@ -691,4 +691,40 @@ tr:nth-child(odd) {
     padding: 5px;
     border-radius: 8px;
   }
+	.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #000;
+  min-width: 200px;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.dropdown-content li {
+  border-bottom: 1px solid #FEF6C2;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+
+.dropdown-content a:hover {
+  background-color: #222;
+}
 }
