@@ -150,7 +150,36 @@ input, textarea { margin-bottom: .5em; }
  }
  #item img{ float:right;
  }
- 
+ .dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #000;
+  min-width: 200px;
+  z-index: 1000;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-content li {
+  display: block;
+  width: 100%;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 .circle-row {
   display: flex;
   justify-content: center;  
@@ -458,36 +487,7 @@ tr:first-child th:last-child {
   padding: 8px 14px;
   cursor: pointer;
 }
-.dropdown {
-  position: relative;
-}
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: #000;
-  min-width: 200px;
-  z-index: 1000;
-  padding: 0;
-  margin: 0;
-}
-
-.dropdown-content li {
-  display: block;
-  width: 100%;
-}
-
-.dropdown-content a {
-  display: block;
-  padding: 10px;
-  text-align: left;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
 }
 
 @media (max-width: 599px) {
