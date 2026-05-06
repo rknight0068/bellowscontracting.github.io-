@@ -213,6 +213,7 @@ input, textarea { margin-bottom: .5em; }
 }
 .photo-static-circle {
   position: relative;
+  aspect-ratio: 1 / 1;
   width: 300px;
   height: 300px;
   border-radius: 50%;
@@ -226,6 +227,9 @@ input, textarea { margin-bottom: .5em; }
   object-fit: cover;
   object-position: center; 
   display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .photo-static-circle:hover {
   box-shadow: 0 0 25px 10px #008000;
