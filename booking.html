@@ -100,6 +100,14 @@
     Your information has been submitted! We will be in contact soon.
   </div>
 </div>
+	  <script>
+document.getElementById("walkthroughForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    document.getElementById("walkthroughForm").style.display = "none";
+    document.getElementById("walkthroughSuccess").style.display = "block";
+});
+</script>	
   </main>
   <footer>
 Copyright &copy; 2025 Bellows Contracting LLC <br>
